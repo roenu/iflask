@@ -1,0 +1,40 @@
+{
+    "sku": {
+        "name": "Standard_B1ms",
+        "tier": "Burstable"
+    },
+    "properties": {
+        "fullyQualifiedDomainName": "iflaskdb.postgres.database.azure.com",
+        "version": "13",
+        "minorVersion": "7",
+        "administratorLogin": "roenu",
+        "state": "Ready",
+        "availabilityZone": "3",
+        "storage": {
+            "storageSizeGB": 32
+        },
+        "backup": {
+            "backupRetentionDays": 7,
+            "geoRedundantBackup": "Disabled",
+            "earliestRestoreDate": "2022-09-11T21:22:03.6181895+00:00"
+        },
+        "network": {
+            "publicNetworkAccess": "Enabled"
+        },
+        "highAvailability": {
+            "mode": "Disabled",
+            "state": "NotEnabled"
+        },
+        "maintenanceWindow": {
+            "customWindow": "Disabled",
+            "dayOfWeek": 0,
+            "startHour": 0,
+            "startMinute": 0
+        }
+    },
+    "location": "North Europe",
+    "tags": {},
+    "id": "/subscriptions/542a1b0b-aa90-492e-8dc5-af5eb11d5540/resourceGroups/IFA_WebApp/providers/Microsoft.DBforPostgreSQL/flexibleServers/iflaskdb",
+    "name": "iflaskdb",
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers"
+}
